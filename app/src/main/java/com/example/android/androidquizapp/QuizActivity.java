@@ -74,7 +74,7 @@ public class QuizActivity extends AppCompatActivity {
      */
     public boolean checkQuestionThree() {
         String answer = ((EditText) findViewById(R.id.q3_editTextField)).getText().toString().toLowerCase();
-        return answer.contains("relativelayout");
+        return answer.contains("scrollview");
     }
 
 
