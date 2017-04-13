@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Android Quiz App</string>
+    <string name="answer_10_questions">Answer 10 questions and learn how much you know about Android! Here we go!</string>
+    <string name="the_quiz_contains">The quiz contains open questions as well as single and multiple choice answers</string>
+    <string name="the_result_you_will_post">The result you will be able to post on social networking sites or send in private messages.</string>
+    <string name="before_start">Before start the quiz, please fill out the form below. These data will be used to generate the final message.</string>
+    <string name="hint_name">Name</string>
+    <string name="start_button_txt">START</string>
+    <string name="mascots_green_guys">x a b r d h c a</string>
+    <string name="current_score">4/5</string>
+    <string name="score_slogan">Do you want more?</string>
+    <string name="welcome_slogan">Welcome to ANDROID QUIZ APP!</string>
+    <string name="question_1">Question 1: Which unit should we use to resize the text?</string>
+    <string name="dp">dp</string>
+    <string name="sp">sp</string>
+    <string name="px">px</string>
+    <string name="dpi">dpi</string>
+    <string name="question_2">Question 2: Which of the following variables can be use for store a value: 2.33</string>
+    <string name="float_answer">float</string>
+    <string name="double_answer">double</string>
+    <string name="string_answer">String</string>
+    <string name="boolean_answer">boolean</string>
+    <string name="question_3">Question 3: What view will allow you to scroll screen content?</string>
+    <string name="put_your_answer_here">Put your answer here</string>
+    <string name="question_4">Question 4: Which of following views are view groups?</string>
+    <string name="question_5_what_method_do_you_use_for_checking_if_checkbox_is_marked">Question 5: What method do you use for checking if checkbox is marked?</string>
+    <string name="check_answers">Check answers</string>
+</resources>
