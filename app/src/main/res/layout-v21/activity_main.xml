@@ -107,17 +107,6 @@
 
                 </LinearLayout>
 
-                <!--TextView
-                    android:id="@+id/bugs"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:gravity="center_horizontal"
-                    android:text="@string/mascots_green_guys"
-                    android:textColor="@android:color/holo_green_dark"
-                    android:textSize="@dimen/size_of_mascots_green_guys" /-->
-
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/divider_width"
@@ -174,7 +163,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/vertical_margin"
-                    android:text="Enter your name"
+                    android:text="@string/enter_your_name"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 

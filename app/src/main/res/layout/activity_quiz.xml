@@ -7,7 +7,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,9 +18,9 @@
             <!-- Question 1 -->
 
             <TextView
+                style="@style/StyleForGuizQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/vertical_margin"
                 android:text="@string/question_1" />
 
             <RadioGroup
@@ -57,7 +57,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/vertical_margin"
+                style="@style/StyleForGuizQuestion"
                 android:text="@string/question_2" />
 
             <CheckBox
@@ -90,7 +90,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/vertical_margin"
+                style="@style/StyleForGuizQuestion"
                 android:text="@string/question_3" />
 
             <EditText
@@ -105,39 +105,39 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/vertical_margin"
+                style="@style/StyleForGuizQuestion"
                 android:text="@string/question_4" />
 
             <CheckBox
                 android:id="@+id/q4_checkbox_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="LinearLayout" />
+                android:text="@string/linearlayout_answer" />
 
             <CheckBox
                 android:id="@+id/q4_checkbox_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RelativeLayout" />
+                android:text="@string/relativelayout_answer" />
 
             <CheckBox
                 android:id="@+id/q4_checkbox_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textview_answer" />
 
             <CheckBox
                 android:id="@+id/q4_checkbox_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NumberView" />
+                android:text="@string/numberview_answer" />
 
             <!-- Question 5 -->
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/vertical_margin"
+                style="@style/StyleForGuizQuestion"
                 android:text="@string/question_5_what_method_do_you_use_for_checking_if_checkbox_is_marked" />
 
             <RadioGroup
@@ -148,25 +148,25 @@
                     android:id="@+id/q5_rb_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="isMarked()" />
+                    android:text="@string/ismarked_answer_option" />
 
                 <RadioButton
                     android:id="@+id/q5_rb_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="isChecked()" />
+                    android:text="@string/ischecked_answer_option" />
 
                 <RadioButton
                     android:id="@+id/q5_rb_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="isChecket()" />
+                    android:text="@string/ischecket_answer_option" />
 
                 <RadioButton
                     android:id="@+id/q5_rb_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="isTrue()" />
+                    android:text="@string/istrue_answer_option" />
             </RadioGroup>
 
         </LinearLayout>
@@ -175,7 +175,6 @@
             android:id="@+id/submitButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="checkQuizAndShowResult"
             android:layout_alignParentBottom="true"
             android:text="@string/check_answers"
             android:backgroundTint="@color/startButtonColor"
